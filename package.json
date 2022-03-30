@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon -L index.js"
+  },
+  "author": "",
+  "proxy": "http://localhost:5000",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "mongoose-int32": "^0.5.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.0",
+    "tesseract.js": "^2.1.5"
+  }
+}
